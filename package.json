@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoorAlrumihani/intro-to-backend.git#9f7bff25fcc5c7eb7ac97f2a0feecf99a2a6384d"
+  },
+  "author": "Hoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoorAlrumihani/intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/HoorAlrumihani/intro-to-backend/tree/9f7bff25fcc5c7eb7ac97f2a0feecf99a2a6384d#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
